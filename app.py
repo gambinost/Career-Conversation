@@ -82,7 +82,7 @@ class Me:
         self.model_name = "llama-3.3-70b-versatile"
         
         self.name = "Moamen"
-        reader = PdfReader("me/profile.pdf")
+        reader = PdfReader("me/Profile.pdf")
         self.linkedin = ""
         for page in reader.pages:
             text = page.extract_text()
